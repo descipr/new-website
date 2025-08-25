@@ -1,0 +1,13 @@
+
+  .readyAI {
+    padding: 0 3rem;
+  }
+
+
+
+
+  @media only screen and (max-width: 800px) {
+    body .container-fluid .readyAI {
+      padding: 0;
+    }
+  }

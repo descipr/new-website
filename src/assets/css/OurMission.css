@@ -1,0 +1,59 @@
+/* .ourmission {
+  background: #2f0c41;
+  text-align: center;
+  padding: 10rem 15rem;
+} */
+
+.ourmission {
+  background: #2f0c41;
+  text-align: center;
+  min-height: 55vh;        /* half of viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;         /* small side padding only */
+}
+.ourmission .container {
+  margin-bottom: 0;
+}
+.ourmission h3 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #fff;
+  margin: 5rem 0 0;
+  line-height: 2;
+}
+.ourmission h5 {
+  background: #592472;
+  padding: 8px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 400;
+  max-width: 200px;
+  margin: 0 auto;
+}
+.ourmission img {
+  display: inline;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .ourmission {
+    background: #2f0c41;
+    text-align: center;
+    padding: 4rem 0;
+  }
+  .container-fluid .ourmission h3 {
+    margin: 3rem 0rem 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .ourmission {
+    background: #2f0c41;
+    text-align: center;
+    padding: 10rem 0;
+  }
+}

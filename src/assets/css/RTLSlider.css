@@ -1,0 +1,94 @@
+.mainSliderAbout {
+  padding: 0 3rem;
+}
+
+.custom-swiper {
+  width: 100%;
+  height: 320px;
+  margin: 20px 0;
+}
+
+.custom-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 320px !important;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.slide-content {
+  width: 100%;
+  height: 100%;
+  background: #CB9DEF;
+  border-radius: 12px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-content .orbitItem {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.slide-content h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #262629;
+  margin-bottom: 20px;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+  padding-bottom: 20px;
+  line-height: 2rem;
+}
+
+.slide-content h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.slide-content h6 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  text-align: left;
+}
+
+.swiper-pagination-bullet {
+  background: #333 !important;
+  opacity: 0.6;
+}
+
+.swiper-pagination-bullet-active {
+  background: #000 !important;
+  opacity: 1;
+}
+
+.slide-content:has(.nebulaOppNote) {
+  background: #F7FBFC;
+  border: 1px solid #E8E8E8;
+}
+
+@media only screen and (max-width: 800px) {
+  .mainSliderAbout {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .mainSliderAbout {
+    padding: 0 1rem;
+  }
+}

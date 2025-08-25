@@ -1,0 +1,86 @@
+.content-space {
+  padding: 1rem 1rem 0;
+}
+.privacyContent {
+  background: #fff;
+  padding: 5rem;
+  width: 100%;
+}
+.privacyContent h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #000;
+  margin-top: 3rem;
+}
+.privacyContent h6 {
+  margin: 1rem 0 5rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+ol.numbered {
+  counter-reset: item;
+  list-style-type: none;
+  padding-left: 2.5em;
+}
+
+ol.numbered > li {
+  counter-increment: item;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+
+ol.numbered > li::before {
+  content: counter(item) ". ";
+  position: absolute;
+  left: -1.5em;
+}
+
+ol.numbered > li > ol {
+  counter-reset: subitem;
+  list-style-type: none;
+  padding-left: 1.5em;
+}
+
+ol.numbered > li > ol > li {
+  counter-increment: subitem;
+  position: relative;
+}
+
+ol.numbered > li > ol > li::before {
+  content: counter(item) "." counter(subitem) " ";
+  position: absolute;
+  left: -1.8em;
+}
+.privacyContent ol {
+  margin: 1rem 0 5rem;
+}
+
+ol li {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+ol li p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+ol li ol li {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.privacyContent ol li ol li h6 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 1rem 1rem 2rem;
+}
+.privacyContent small {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(107, 114, 128, 1);
+}
+#lessmarginBtm {
+  margin-bottom: 1rem;
+}

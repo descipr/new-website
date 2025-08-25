@@ -1,0 +1,100 @@
+.programFor .whothisfor-left {
+  background: #2f0c41;
+  padding: 5rem 15rem;
+}
+.programFor .whothisfor-left h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.programFor .whothisfor-left a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.4);
+  display: block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  position: relative;
+  padding-left: 2.5rem;
+}
+.programFor .whothisfor-left a:hover {
+  color: #fff;
+}
+.programFor .whothisfor-left a.active {
+  color: #fff;
+}
+.programFor .whothisfor-left a.active i {
+  color: #fff;
+  margin-right: 10px;
+}
+.whothisfor-right {
+  /* background: #fcfbf7 url("../images/whoisthisfor/schoolimg.png") no-repeat; */
+  background-position: calc(100% - 50px) center;
+  background-size: 35%;
+  padding: 0 5rem;
+}
+.whothisfor-right p {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 1rem;
+}
+.whothisfor-right p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/images/whoisthisfor/arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.programFor .contentPaddingRight {
+  padding: 2rem 5rem;
+  background: #fcfaf7;
+}
+
+.optionTabs {
+  background: #f3f3f3;
+  border: 1px solid #d8d8d8;
+  border-radius: 12px;
+  padding: 7px 10px;
+  gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tab {
+  flex: 1 1 auto;
+  min-width: 120px;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: #000;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+}
+.tab:hover {
+  background-color: #fff;
+}
+.activeTab {
+  background-color: #fff;
+  color: #000;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.who-image {
+  transition: opacity 0.3s ease-in-out;
+}
+.who-image.hidden {
+  opacity: 0;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .programFor .whothisfor-left {
+    background: #2f0c41;
+    padding: 5rem;
+  }
+}

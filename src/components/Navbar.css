@@ -1,0 +1,87 @@
+body {
+  padding-top: 0;
+  font-family: "Mona Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.bg-dark {
+  background-color: #2f0c41;
+}
+.navbar {
+  font-family: "Mona Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  background-color: #2f0c41;
+  padding: 1.5rem 1rem 0;
+  z-index: 1030;
+  /* height: 100px; */
+}
+.navbar > .container-fluid {
+  margin: 0 11.5rem;
+}
+.custom-navbar {
+  background-color: #2f0c41;
+  width: 100%;
+}
+.navbar-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-logo {
+  height: 40px;
+}
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+.nav-link {
+  color: white !important;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+.nav-link.active,
+.nav-link:hover {
+  color: #ca9cef !important;
+}
+.navbar-toggler {
+  background-color: #4b1d63; /* your default background */
+  padding: 0.5rem 0.75rem;
+}
+
+/* Style the 3 bars */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 1024px) {
+  .bg-dark {
+    background-color: #2f0c41;
+  }
+  .navbar {
+    font-family: "Mona Sans", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    background-color: #2f0c41;
+    padding: 1.5rem 1rem 0;
+    z-index: 1030;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    display: none !important;
+  }
+
+  .navbar > .container-fluid {
+    margin: 0 1rem;
+  }
+
+  .navbar-expand-lg .navbar-toggler {
+    display: block !important; /* show hamburger */
+  }
+}

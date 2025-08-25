@@ -1,0 +1,480 @@
+.container-fluid .bannerbgwhite {
+  background: #fff;
+  padding: 7rem 3rem;
+}
+.container-fluid .bannerbgwhite h5,
+.container-fluid .bannerbgwhite h3 {
+  color: #00000c;
+}
+.expcurriculum {
+  background: #eddafc;
+  color: #2f0c41;
+  border: 1px solid #eddafc;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  text-align: center;
+  margin-right: 15px;
+}
+.partnerwithus {
+  background: #fff;
+  color: #00000c;
+  border: 1px solid #00000c;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  text-align: center;
+}
+#campuseco .content-pin {
+  background: url("../images/aicampussection/vectorimg.svg") no-repeat;
+  padding: 1rem 0 1rem 2rem;
+  background-position: 12px 0;
+}
+#campuseco h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+#campuseco h6 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  line-height: 1.8rem;
+}
+.container-fluid .specialPrograms {
+  padding: 1rem 3rem;
+}
+
+.foundationlevel {
+  background: #300c41;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 2rem 4rem;
+  margin-top: 4rem;
+}
+.foundationlevel h4 {
+  margin: 5rem 0 1rem;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-left: 3.125rem;
+  background: url("../images/whoisthisfor/foundation.svg") no-repeat left center;
+  background-size: 40px 40px;
+}
+.foundationlevel p {
+  color: #fff;
+}
+.foundationcontent {
+  padding: 2rem 1rem;
+  background: #fafafa;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.foundationcontent p {
+  position: relative;
+  padding: 10px 15px 10px 35px;
+  margin: 5px;
+  background: #fff;
+  color: #000;
+  font-weight: 500;
+  border-radius: 12px;
+  border: 1px solid #bdbdbd;
+  display: inline-block;
+}
+.foundationcontent p::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/whoisthisfor/arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.container-fluid .whitebg {
+  background: #fff;
+  padding: 10rem 3rem 2rem;
+}
+.whitebg .careersupport .settingPadding h5 {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.whitebg h6 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+.container-fluid .ultralightgrey {
+  background: #f9f9f9;
+  padding: 5rem 3rem;
+}
+.container-fluid .ultralightgrey h4,
+.container-fluid .whitebg h4 {
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.container-fluid .ultralightgrey h4 {
+  margin-bottom: 8rem;
+}
+.container-fluid .ultralightgrey button,
+.container-fluid .whitebg button {
+  margin-top: 1rem;
+}
+.empowerFuture .careersupport,
+.clientsLogo {
+  margin-top: 3rem;
+}
+.clientSpot .clientsLogo {
+  margin-top: 3rem;
+}
+.careersupport h5 {
+  color: #000;
+  font-size: 1.5rem;
+}
+.careersupport img {
+  background: transparent;
+  width: 20%;
+  margin-bottom: 1.5rem;
+}
+.careersupport summary {
+  color: #211e1e;
+  display: block;
+}
+.empowerFuture h5 {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+.ultralightgrey .margin3Top {
+  margin-top: 3rem;
+}
+.logoimageHeight {
+  height: 120px;
+}
+.freesubscription {
+  background: #fff;
+  padding: 1.5rem;
+  border: 1px solid #b4b4b4;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+.freesubscription span {
+  background: #f7e5ff;
+  color: #300c41;
+  padding: 5px 15px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.freesubscription h5 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  columns: #000;
+  margin-top: 1rem;
+}
+.freesubscription h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  columns: #000;
+}
+.freesubscription h1 span:first-child {
+  font-weight: 400;
+  font-size: 3.5rem;
+  background: none;
+  padding: 0;
+  color: #595656;
+}
+.freesubscription h1 span {
+  font-weight: 400;
+  font-size: 1.125rem;
+  background: none;
+  padding: 0;
+  color: #787676;
+}
+.freesubscription h6 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #000;
+}
+.freesubscription p {
+  font-size: 1rem;
+  font-weight: 400;
+  position: relative;
+  padding-left: 1.7rem;
+}
+.freesubscription p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  background: url("../images/greencheck.png") no-repeat center center;
+  background-size: contain;
+}
+.freesubscription button {
+  width: 100%;
+}
+
+#no-bordering {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+#no-borderingmid {
+  border-bottom: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.proindividual button {
+  background: #300c41;
+  color: #fff;
+  margin-top: 3rem;
+}
+.premiumsubscription {
+  background: #4c2bba;
+}
+.premiumsubscription h5,
+.premiumsubscription h1,
+.premiumsubscription h6,
+.premiumsubscription p {
+  color: #fff;
+}
+.premiumsubscription p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  background: url("../images/whitecheck.png") no-repeat center center;
+  background-size: contain;
+  /* color: #FFF;
+  font-size: 1rem; */
+}
+.premiumsubscription h6 {
+  border-bottom: 1px solid #fff;
+}
+.clientSpot {
+  background: #fff;
+  padding: 1rem 3rem;
+}
+.clientSpot .spacetop {
+  margin-top: 4rem;
+}
+.clientSpot h4 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.clientSpot h5 {
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+.container-fluid .readyAI {
+  padding: 30px 3rem;
+}
+.imageRendering {
+  padding: 0 1rem 5rem;
+  background: #fff;
+}
+.programFor {
+  text-align: left;
+}
+.programFor .paleYellowbg {
+  background: #fffcfa;
+  padding: 2rem 5rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .container-fluid .bannerbgwhite {
+    padding: 0;
+  }
+  .container-fluid .specialPrograms {
+    padding: 0;
+  }
+  #campuseco .content-pin {
+    background: url("../images/orderedlist.png");
+    background-repeat: no-repeat;
+    background-size: 2%;
+    background-position: 20px 10px;
+    padding: 0 3rem;
+  }
+  .container-fluid .specialPrograms h6 {
+    text-align: center;
+  }
+  .programHighlights .foundationlevel h4 {
+    background: none;
+  }
+  .container-fluid .specialPrograms .content-pin h6 {
+    text-align: left;
+  }
+  .ourmission {
+    background: #2f0c41;
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+  #campuseco .bigarrowcontent {
+    display: none;
+  }
+  .tab {
+    flex: 1 1 100%;
+  }
+  .programFor .whothisfor-left {
+    background: #2f0c41;
+    padding: 2rem;
+  }
+  .whothisfor-right {
+    background: #fcfbf7;
+    padding: 2rem;
+  }
+  .programHighlights {
+    background: #fff;
+    padding: 1rem;
+  }
+  .who-img {
+    display: none;
+  }
+  .container-fluid .foundationlevel {
+    padding: 0 1rem 1rem;
+  }
+  .foundationlevel h4 {
+    margin: 1rem 0;
+  }
+  .container-fluid .whitebg {
+    padding: 3rem 1rem 2rem;
+  }
+  .programFor .contentPaddingRight {
+    padding: 2rem;
+  }
+  .careersupport img {
+    width: 15%;
+  }
+  .clientSpot .spacetop {
+    margin-top: 1rem;
+  }
+  .freesubscription {
+    margin-bottom: 0;
+  }
+  .proindividual {
+    margin: 2rem 0;
+  }
+  .empowerFuture {
+    text-align: left;
+    padding: 1rem 1rem 0;
+  }
+  .container-fluid .ultralightgrey {
+    padding: 2rem 1rem;
+  }
+  .container-fluid .ultralightgrey h4 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .container-fluid .whitebg h4 {
+    text-align: center;
+  }
+  .container-fluid .ultralightgrey h5 {
+    margin-bottom: 2rem;
+  }
+  .clientSpot h4 {
+    text-align: center;
+  }
+  .imageRendering {
+    padding: 0 1rem;
+    background: #fff;
+  }
+  .empowerFuture button {
+    width: 100%;
+  }
+  .container-fluid .specialPrograms h4 {
+    margin-top: 3rem;
+  }
+  /* .ourmission h5 {
+    background: #592472;
+    padding: 8px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 400;
+    max-width: 200px;
+  } */
+  .content-align-mobile {
+    text-align: center;
+  }
+  .content-align-mobile button {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+  .container-fluid .bannerbgwhite {
+    background: #fff;
+    padding: 0 3rem 2rem;
+  }
+  #campuseco h6 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 0;
+    line-height: 1.8rem;
+  }
+  #campuseco .bigarrowcontent {
+    display: none;
+  }
+  .whothisfor-left {
+    background: #2f0c41;
+    padding: 5rem;
+  }
+  .whothisfor-right {
+    background: #fcfbf7;
+    padding: 0 3rem;
+  }
+  .specialPrograms h4 {
+    margin: 3rem 0 2rem;
+  }
+  #campuseco .content-pin {
+    background: url("../images/orderedlist.png") no-repeat;
+    padding: 1rem 0 1rem 2rem;
+    background-position: 0 22px;
+    background-size: 16px 16px;
+  }
+  .container-fluid .whitebg {
+    background: #fff;
+    padding: 5rem 3rem 2rem;
+  }
+  .empowerFuture .container h4 {
+    margin-bottom: 1rem;
+  }
+  .ultralightgrey .container h4 {
+    margin-bottom: 1rem;
+  }
+  .ultralightgrey .container h5 {
+    margin-bottom: 4rem;
+  }
+  .freesubscription {
+    margin-bottom: 0;
+  }
+  .proindividual {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+/* .swiper-wrapper img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+} */
+
+.section {
+  margin: 0 auto;
+  padding-block: 0;
+}

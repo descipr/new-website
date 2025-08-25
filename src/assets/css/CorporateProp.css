@@ -1,0 +1,461 @@
+body .bannerwhite {
+  background: #fff;
+  padding: 7rem 3rem;
+}
+body .bannerwhite h5,
+body .bannerwhite h3 {
+  color: #00000c;
+}
+.banner-content h5 {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+.expcurriculum {
+  background: #eddafc;
+  color: #2f0c41;
+  border: 1px solid #eddafc;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  text-align: center;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.partnerwithus {
+  background: #fff;
+  color: #00000c;
+  border: 1px solid #00000c;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  text-align: center;
+}
+.trainingaction {
+  background: rgba(249, 249, 249, 1);
+  text-align: center;
+  padding: 5rem 3rem 3rem;
+}
+.trainingaction h4 {
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 5rem;
+}
+.trainingaction h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0;
+}
+.desciprEdge {
+  background: #2f0c41;
+  text-align: left;
+  padding: 7rem 3rem 5rem;
+}
+.desciprEdge h4 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 0rem;
+}
+.desciprEdge button {
+  margin-top: 20px;
+}
+.tailoredProducts {
+  background: #fff;
+  padding: 5rem 3rem 3rem;
+}
+.tailoredProducts h4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 5rem;
+}
+.tailoredProducts h5 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #000;
+  padding: 20px 0;
+}
+.workshop,
+.fellowship,
+.customcurriculum {
+  text-align: left;
+  padding: 15px;
+}
+.customcurriculum img {
+  border-radius: 12px;
+}
+.para-content {
+  height: 190px;
+}
+.para-content p {
+  text-align: left;
+}
+.para-content p::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../images/community_arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-left: 0;
+  margin-top: -5px;
+}
+
+#descipredgecontent img {
+  width: 15%;
+}
+
+ol {
+  margin-top: 4rem;
+}
+ol li {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.comparison-row .centerContent {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#leftyAlign {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100px;
+}
+#leftyAlign::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../images/earlycareers.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-left: 0;
+}
+.edgeRightpadding {
+  padding: 15px 2rem 15px 0;
+}
+#descipredgecontent {
+  padding: 2rem;
+}
+#descipredgecontent h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 1.5rem 0;
+}
+#descipredgecontent h6 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #fff;
+  line-height: 2rem;
+}
+.bottomspaceedge {
+  margin-bottom: 5rem;
+}
+
+.active-logo {
+  border-bottom: 2px solid #ef9dcb;
+}
+.fade-section {
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.visible {
+  display: block;
+}
+
+@media only screen and (max-width: 800px) {
+  .container-fluid .bannerwhite {
+    padding: 0;
+  }
+  .container-fluid .infographicdata {
+    padding: 2rem 1rem 0;
+  }
+  .ourmission {
+    background: #2f0c41;
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+  #campuseco .bigarrowcontent {
+    display: none;
+  }
+  .tab {
+    flex: 1 1 100%;
+  }
+  .programHighlights {
+    background: #fff;
+    padding: 1rem;
+  }
+  .empowerFuture {
+    text-align: left;
+    padding: 1rem 1rem 0;
+  }
+  .empowerFuture button {
+    width: 100%;
+  }
+  .content-align-mobile {
+    text-align: center;
+  }
+  .content-align-mobile button {
+    width: auto;
+  }
+  .foundationlevel span {
+    padding: 9px;
+    display: block;
+    text-align: center;
+  }
+  .day-label::before {
+    margin-right: 10px;
+    margin-left: 0;
+  }
+  .secondSection {
+    padding-top: 30px;
+    padding-left: 1rem;
+    border-top: 1px solid #555;
+    border-left: 0;
+  }
+  .curriculumFrame img {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .curriculum_column_padding img {
+    width: 10%;
+  }
+  .curriculum_column_padding {
+    padding: 1rem 1rem 0;
+  }
+  .valueforeveryone {
+    padding: 3rem 1rem 0rem;
+  }
+  .aiforall {
+    margin-bottom: 15px;
+  }
+  .breathing-space-left {
+    padding: 2rem;
+  }
+  .breathing-space-left p {
+    text-align: left;
+  }
+  .stopHub-content {
+    margin-top: 0;
+  }
+  .readyAI {
+    padding: 0 1rem;
+  }
+  .infographicdata img {
+    width: 100%;
+  }
+  .tailoredProducts {
+    background: #fff;
+    padding: 2rem 1rem 0;
+  }
+  .tailoredProducts h4 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .tailoredProducts img {
+    width: 100%;
+  }
+  .para-content {
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .infographicdata ol li {
+    margin: 2rem 1rem 0;
+  }
+  .numericsteps {
+    display: none;
+  }
+  .numericstepscontent {
+    margin: 3rem 0 0;
+  }
+  .infographicdata h6 {
+    margin-bottom: 2rem;
+  }
+  .accordion-wrapper {
+    margin: 0;
+  }
+  .discoveryblock,
+  .designblock,
+  .deliveryblock {
+    border: 1px solid rgba(250, 250, 250, 0.29);
+    border-radius: 24px;
+    margin-bottom: 1.5rem;
+  }
+  .container-fluid .trainingaction {
+    background: rgba(249, 249, 249, 1);
+    text-align: center;
+    padding: 3rem 1rem 0;
+  }
+  .container-fluid .trainingaction h4 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .responsive-table-wrapper {
+    overflow-x: auto;
+    position: relative;
+  }
+  .locked-second-column-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    min-width: 600px;
+  }
+  .locked-second-column-table th:first-child,
+  .locked-second-column-table td:first-child {
+    display: none;
+  }
+  .locked-second-column-table th:nth-child(2),
+  .locked-second-column-table td:nth-child(2) {
+    position: sticky;
+    left: -1px;
+    background: #fff;
+    z-index: 2;
+    min-width: 122px;
+    padding: 0 10px;
+  }
+  .locked-second-column-table td:nth-child(2) {
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+  }
+  .trainingDetails img {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .instantPadding div {
+    padding: 2rem;
+  }
+  .additional5rem {
+    margin-top: 0;
+  }
+  .desciprEdge {
+    background: #2f0c41;
+    text-align: left;
+    padding: 2rem 1rem 0;
+  }
+  #descipredgecontent {
+    padding: 2rem 0rem;
+  }
+  .recentTrainings h6 {
+    margin: 15px 5px;
+  }
+  .swiper {
+    width: 100%;
+    height: auto;
+  }
+  .swiper-slide {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .discoverContent {
+    padding: 15px;
+  }
+  .acc-body button {
+    min-width: 225px;
+    margin: 1rem 0;
+  }
+  #leftyAlign::before {
+    content: "";
+    display: none;
+    background-image: url("../images/earlycareers.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: 0;
+  }
+  .edgeRightpadding {
+    padding: 15px 2rem;
+  }
+  #descipredgecontent h6 {
+    margin-bottom: 3rem;
+  }
+  .bottomspaceedge {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  body .container-fluid .content-space {
+    padding: 0 3rem;
+  }
+  .para-content {
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .infographicdata img,
+  .tailoredProducts img {
+    width: 100%;
+  }
+  ol {
+    margin-top: 4rem;
+  }
+  ol li {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 2.5rem;
+  }
+  .instantPadding div {
+    padding: 1rem;
+    display: block;
+    width: 22%;
+  }
+  .instantPadding div img {
+    border-bottom: 2px solid #cb9def;
+    padding-bottom: 7px;
+    display: block;
+  }
+  .trainingDetails img {
+    width: 100%;
+    margin-top: 4rem;
+  }
+  .fellowship,
+  .customcurriculum {
+    text-align: left;
+    padding: 15px;
+    margin-top: 2rem;
+  }
+  .px-3 {
+    margin: 3rem;
+  }
+  .infographicdata h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  .discoveryblock,
+  .designblock {
+    margin-bottom: 3rem;
+  }
+  .infographicdata .acc-body button {
+    min-width: 225px;
+    margin: 5rem 0 0;
+  }
+  #descipredgecontent {
+    padding: 2rem 0;
+  }
+  #descipredgecontent img {
+    width: 10%;
+  }
+  .edgeRightpadding {
+    margin-bottom: 3rem;
+  }
+  .container-fluid .desciprEdge {
+    padding: 3rem 3rem 1rem;
+  }
+}

@@ -1,0 +1,79 @@
+.recentTrainings {
+  background: #fff;
+  padding: 5rem 3rem;
+}
+.recentTrainings h4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0;
+}
+.recentTrainings h6 {
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+.recentTrainings .additional5rem {
+  margin-top: 5rem;
+}
+.instantPadding {
+  padding: 2rem;
+  text-align: center;
+  height: 350px;
+}
+.instantPadding div {
+  padding: 3rem;
+  display: block;
+  width: 100%;
+}
+.instantPadding a {
+  cursor: pointer;
+}
+.instantPadding div img {
+  padding-bottom: 7px;
+  border-bottom: none;
+}
+
+.instantPadding div img.active {
+  border-bottom: 2px solid #cb9def;
+  padding-bottom: 7px;
+}
+.trainingDetails {
+  border: 1px solid #dedede;
+  text-align: left;
+  width: 100%;
+  border-radius: 1.5rem;
+  padding: 20px;
+}
+.trainingDetails h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
+}
+.trainingDetails h6 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #868080;
+}
+.trainingDetails h5 {
+  font-weight: 400;
+  color: #000;
+  margin-top: 2rem;
+  line-height: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .recentTrainings {
+    background: #fff;
+    padding: 2rem 1rem;
+  }
+  .recentTrainings .additional5rem {
+    margin-top: 0;
+  }
+  .instantPadding {
+    padding: 2rem;
+    text-align: center;
+    height: auto;
+  }
+}

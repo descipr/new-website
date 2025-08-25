@@ -1,0 +1,319 @@
+.slideToFroContent {
+  background: #fff;
+  padding: 1rem 1rem 5rem;
+}
+.aboutBannerSection {
+  background: #300c41;
+}
+.bannerwhite h5,
+.bannerwhite h3 {
+  color: #fff;
+}
+.banner-content h5 {
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+body .content-space {
+  padding: 5rem 3rem 0;
+}
+
+.aboutDescipr {
+  background: #fff;
+  padding: 10rem 3rem 8rem;
+}
+.aboutDescipr h4 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #000;
+}
+.aboutDescipr h5 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #000;
+  margin: 2rem;
+  line-height: 1.8rem;
+}
+.aboutusMission {
+  padding: 8rem 3rem 6rem;
+  background: #300c41;
+}
+.aboutusMission h5 {
+  background: #592472;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 15px;
+  height: auto;
+  display: inline-block;
+}
+.aboutusMission h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 5rem;
+  line-height: 2.5rem;
+}
+.learnBuildText {
+  padding: 12rem 3rem;
+  background: #fff;
+  text-align: center;
+}
+.learnBuildText h1 {
+  font-size: 5.25rem;
+  font-weight: 500;
+  margin: 1rem 0 0;
+}
+.learnBuildText h1 span {
+  color: #bdbdbd;
+}
+.learnBuildText h1:last-child {
+  color: #bdbdbd;
+}
+
+.spacevertical {
+  margin-top: 25px;
+}
+.swiper-container {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .container-fluid .aboutBannerSection {
+    padding: 1rem 1rem 3rem;
+  }
+  .container-fluid .aboutDescipr h5 {
+    margin: 0;
+  }
+  .readyAI {
+    padding: 0 1rem;
+  }
+  .learnBuildText {
+    padding: 1rem;
+  }
+  
+  .swiper-container {
+    display: block;
+  }
+  .swiper-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .swiper-wrapper {
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper-slide {
+    width: 100%;
+    /* height: 468px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative; /* important for absolute children if needed */
+  }
+
+  .slide-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profilebox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  .ankitakundu {
+    background: url("../images/ourTeam/ankitakundu.jpg") no-repeat center center;
+  }
+  .tanoydewanjee {
+    background: url("../images/ourTeam/tanoyy.jpg") no-repeat center center;
+  }
+  .srinivasan {
+    background: url("../images/ourTeam/srinivasanbalaji.jpg") no-repeat center
+      center;
+  }
+  .sameerdubey {
+    background: url("../images/ourTeam/sameerdubey.jpg") no-repeat center center;
+  }
+  .kshitizjha {
+    background: url("../images/ourTeam/kshitizjha.jpg") no-repeat center center;
+  }
+  .rohanlal {
+    background: url("../images/ourTeam/rohanlal.jpg") no-repeat center center;
+  }
+  .vasubhasin {
+    background: url("../images/ourTeam/vasubhasin.jpg") no-repeat center center;
+  }
+  .manishsinha {
+    background: url("../images/ourTeam/manishsinha.jpg") no-repeat center center;
+  }
+  .atulanand {
+    background: url("../images/ourTeam/atulanand.jpg") no-repeat center center;
+  }
+  .profilebox article {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .profilebox article h5 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+  .profilebox article img {
+    height: 28px;
+    width: auto;
+  }
+  .aboutDescipr {
+    background: #fff;
+    padding: 3rem 1rem 1rem;
+    text-align: left;
+  }
+  .aboutusMission {
+    padding: 3rem 1rem 1rem;
+    text-align: center;
+  }
+  .aboutusMission h3 {
+    margin-top: 2rem;
+  }
+  .aboutusMission img {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .swiper-container {
+    display: none;
+  }
+
+  .aboutDescipr h5 {
+    margin: 0;
+  }
+  .aboutDescipr {
+    padding: 5rem 3rem;
+  }
+  .aboutusMission .d-flex img {
+    display: none;
+  }
+  .aboutusMission .d-flex div {
+    text-align: center;
+  }
+  .learnBuildText {
+    padding: 5rem 3rem;
+  }
+  .ourteam .card-content {
+    margin-bottom: 2rem;
+  }
+
+  .ourteam .row > .col-lg-4:nth-child(1) article {
+    background: url("../images/ourTeam/tanoyy.jpg") no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 345px;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 0;
+  }
+  .ourteam .row > .col-lg-4:nth-child(2) article {
+    background: url("../images/ourTeam/srinivasanbalaji.jpg") no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 345px;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 0;
+  }
+  .ourteam .row > .col-lg-4:nth-child(3) article {
+    background: url("../images/ourTeam/sameerdubey.jpg") no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 345px;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 0;
+  }
+
+  .ourteam .row > .col-lg-4:nth-child(4) article {
+    background: url("../images/ourTeam/ankitakundu.jpg") no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 345px;
+    position: relative;
+    z-index: 0;
+  }
+  .ourteam .row > .col-lg-4:nth-child(5) article {
+    background: url("../images/ourTeam/manishsinha.jpg") no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 345px;
+    position: relative;
+    z-index: 0;
+  }
+  .ourteam .row > .col-lg-4:nth-child(6) article {
+    background: url("../images/ourTeam/vasubhasin.jpg") no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 345px;
+    position: relative;
+    z-index: 0;
+  }
+  .ourteam .row > .col-lg-4:nth-child(7) article {
+    background: url("../images/ourTeam/rohanlal.jpg") no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 345px;
+    position: relative;
+    z-index: 0;
+  }
+  .ourteam .row > .col-lg-4:nth-child(8) article {
+    background: url("../images/ourTeam/kshitizjha.jpg") no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 345px;
+    position: relative;
+    z-index: 0;
+  }
+  .ourteam .row > .col-lg-4:nth-child(9) article {
+    background: url("../images/ourTeam/atulanand.jpg") no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 345px;
+    position: relative;
+    z-index: 0;
+  }
+}

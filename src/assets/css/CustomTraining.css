@@ -1,0 +1,176 @@
+
+
+.infographicdata  {
+  background: #2f0c41;
+  text-align: left;
+  padding: 7rem 3rem 5rem;
+}
+.infographicdata h4 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 0rem;
+}
+.infographicdata img {
+  width: 100%;
+}
+.infographicdata h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.infographicdata h6 {
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: rgba(248, 248, 248, 0.62);
+  line-height: 1.8rem;
+}
+.infographicdata .numericsteps {
+  margin: 5rem 0 2rem;
+}
+.numericstepscontent {
+  margin: 0;
+}
+.numericsteps img {
+  float: left;
+  width: 10%;
+  margin-right: 10px;
+}
+.numericsteps hr {
+  float: left;
+  width: 87%;
+}
+hr {
+  margin: 1rem 0;
+}
+.accordion-wrapper {
+  width: 100%;
+  overflow: hidden;
+  margin: 5rem 0 0;
+}
+.acc-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 15px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+.acc-head i {
+  transition: transform 0.3s ease;
+}
+.acc-head.active i {
+  transform: rotate(180deg);
+}
+.acc-body {
+  display: block;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  margin-top: 2rem;
+}.discoveryblock,
+.designblock,
+.deliveryblock {
+  border: 1px solid rgba(250, 250, 250, 0.29);
+  border-radius: 24px;
+}
+.discoveryblock h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #300c41;
+  background: #cb9def;
+  padding: 2rem;
+  text-align: center;
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+}
+.designblock h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgba(48, 12, 65, 1);
+  background: #fff;
+  padding: 2rem;
+  text-align: center;
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+}
+.designblock .discoverContent h5,
+.deliveryblock .discoverContent h5 {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.designblock .discoverContent ul {
+  margin: 2rem 0 0;
+}
+.deliveryblock .discoverContent ul {
+  margin: 1rem 0 0;
+}
+.designblock .discoverContent ul li {
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.deliveryblock .discoverContent ul li {
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.deliveryblock h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  background: rgba(76, 43, 186, 1);
+  padding: 2rem;
+  text-align: center;
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+}
+.discoverContent {
+  background: rgba(255, 255, 255, 0.06);
+  margin: 20px auto;
+  width: 95%;
+  border-radius: 8px;
+  color: #fff;
+  text-align: left;
+  padding: 3rem 15px;
+}
+.delivery-padding {
+  padding: 0.8rem 15px;
+}
+.text600 {
+  font-weight: 600;
+}
+.expertshandpick {
+  padding: 4rem 15px;
+}
+.discoveryindustry {
+  padding: 2rem 15px;
+}
+.acc-body button {
+  min-width: 225px;
+  margin: 5rem 0 1rem;
+}
+.responsive-table-wrapper h6 {
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 0;
+  margin-left: 7px;
+}
+.alt_whitebg {
+  background: #fff;
+}
+table th,
+table td {
+  height: 100px;
+  vertical-align: middle;
+}
+
+
+
+
+
+.letsDiscussBtn {
+  display: block;
+  width: 100%;
+}

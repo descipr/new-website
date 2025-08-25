@@ -1,0 +1,601 @@
+.globalDiv {
+  width: 100%;
+  position: relative;
+  padding: 2rem;
+  left: 0.7rem;
+}
+.bannerwhite {
+  background: #fff;
+}
+.globalDiv .banner-content h5,
+.globalDiv .banner-content h3 {
+  color: #00000c;
+}
+.globalDiv .banner-content h5 {
+  font-weight: 400;
+}
+.banner-content h5 {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+.expcurriculum {
+  background: #eddafc;
+  color: #2f0c41;
+  border: 1px solid #eddafc;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  text-align: center;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.partnerwithus {
+  background: #fff;
+  color: #00000c;
+  border: 1px solid #00000c;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  text-align: center;
+}
+.programHighlights {
+  background: #fff;
+  padding: 5rem 3rem 3rem;
+}
+.programHighlights h4 {
+  text-transform: none;
+  font-size: 2.5rem;
+  margin: 0 0 1rem 0;
+  color: #000;
+  font-weight: 500;
+}
+.programHighlights h6 {
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+.programHighlights .box-model-purple h6 {
+  font-size: 1.125rem;
+  line-height: 1.8rem;
+}
+.optionTabs {
+  background: #f3f3f3;
+  border: 1px solid #d8d8d8;
+  border-radius: 12px;
+  padding: 7px 10px;
+  gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tab {
+  flex: 1 1 auto;
+  min-width: 120px;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: #000;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+}
+.tab:hover {
+  background-color: #fff;
+}
+.activeTab {
+  background-color: #fff;
+  color: #000;
+  border-radius: 8px;
+  font-weight: 600;
+}
+#campuseco .foundationlevel {
+  background: #300c41;
+  border-radius: 24px;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+.foundationlevel span {
+  background: #fff;
+  border-radius: 8px;
+  margin-right: 18px;
+  margin-bottom: 15px;
+  border: rgba(0, 0, 0, 0.19);
+  color: #000;
+  font-weight: 600;
+  padding: 9px 25px;
+}
+.foundationlevel h4 {
+  margin: 4rem 0 1rem;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.foundationlevel section {
+  background: #3c1a4c;
+  padding: 2rem 1rem;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 3rem;
+}
+.foundationlevel section h3 {
+  font-size: 1.5rem;
+  color: #cb9def;
+  font-weight: 600;
+}
+.foundationlevel section h2 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+}
+.foundationlevel p {
+  color: #fff;
+}
+.parallelTeacherProg article {
+  margin-top: 3rem;
+}
+.day-label::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../images/purpletick.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+#campuseco .marginGap {
+  margin-top: 3rem;
+}
+.marginGap p {
+  display: inline-block;
+  margin-right: 20px;
+  width: 6.5rem;
+}
+#stageContent2 section {
+  margin-bottom: 2rem;
+}
+#stageContent2 .marginGap p {
+  display: inline-block;
+  margin-right: 20px;
+  width: 9rem;
+}
+.marginGap article {
+  text-align: left;
+  display: inline-block;
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+.secondSection {
+  padding-left: 60px;
+  border-left: 1px solid #555;
+}
+.foundationlevel .parallelTeacherProg {
+  background: #4c2bba;
+  padding: 2rem 1rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+.parallelTeacherProg h2 {
+  margin: 1.5rem 0 1rem;
+}
+.box-model-purple {
+  background: rgba(188, 184, 255, 0.15);
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-bottom: 25px;
+}
+.box-model-purple h5 {
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.box-model-purple h5::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../images/whitegradienttick.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.vertGap {
+  margin-top: 0;
+}
+.bringAIBootcamp {
+  background: #eddafc;
+  border: 1px solid #cb9def;
+  color: #300c41;
+  padding: 10px 1rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  border-radius: 8px;
+  text-align: center;
+  display: block;
+  width: auto;
+  margin: 0 auto;
+}
+.whitebg {
+  background: #fff;
+  padding: 0rem 1rem 2rem;
+}
+.lightgreybg {
+  background: rgba(249, 249, 249, 1);
+  padding: 3rem 3rem 2rem;
+}
+.lightgreybg h6 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 5rem;
+  line-height: 1.8rem;
+}
+.valueforeveryone {
+  background: #fff;
+  padding: 3rem 3rem 2rem;
+}
+.curriculumFrame {
+  text-align: left;
+}
+.curriculumFrame h5 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.curriculumFrame img {
+  width: 90%;
+}
+.curriculum_column_padding {
+  padding: 1rem;
+}
+.curriculum_column_padding img {
+  width: 20%;
+  margin-bottom: 15px;
+  display: block;
+}
+.curriculum_column_padding h6 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.curriculamFramework .pad-right {
+  padding-right: 4rem;
+}
+.whitebg h4,
+.valueforeveryone h4 {
+  color: #000;
+  font-weight: 500;
+}
+.whitebg .content-align-mobile h6 {
+  font-weight: 400;
+}
+.whitebg .curriculum_column_padding h6 {
+  font-weight: 500;
+}
+.curriculamFramework h4 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+.valueforeveryone h4 {
+  font-size: 2.5rem;
+}
+.valueforeveryone h6 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #000;
+}
+.valueforeveryone .activespace {
+  margin-top: 3rem;
+}
+.aiforall {
+  background: rgba(252, 251, 247, 1);
+  border: 1px solid rgba(209, 209, 209, 1);
+  border-radius: 12px;
+  padding: 15px;
+  height: 460px;
+}
+.aiforall img {
+  width: 70%;
+  text-align: center;
+  margin: 2rem 0;
+}
+.aiforall h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000;
+  margin: 0 0 15px;
+}
+.aiforall h6 {
+  font-weight: 400;
+}
+.container-fluid .communityMembers {
+  padding: 1rem 3rem;
+  background: #fff;
+}
+.oneStopHub h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(48, 12, 65, 1);
+}
+.oneStopHub h6 {
+  color: rgba(48, 12, 65, 1);
+  font-weight: 400;
+}
+.oneStopHub p {
+  font-weight: 500;
+  color: rgba(48, 12, 65, 1);
+  margin: 10px 0 0;
+}
+.oneStopHub p::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../images/community_arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.communityMembers .breathing-space-left {
+  padding: 3rem;
+}
+.spacetop {
+  margin: 25px 0;
+}
+.careerreadysupport {
+  background: #2f0c41;
+  text-align: left;
+  padding: 7rem 3rem 5rem;
+}
+.careerreadysupport h4 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 0rem;
+}
+.careerreadysupport h6 {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+.careerreadysupport .container .align-items-center {
+  margin-bottom: 5rem;
+}
+.future-content {
+  margin-top: 4rem;
+}
+.future-content h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(248, 248, 248, 1);
+  line-height: 2.5rem;
+}
+.future-content img {
+  width: 100%;
+}
+.settingPadding {
+  padding: 1rem 1rem 0rem;
+}
+.d-none {
+  display: none !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .container-fluid .globalDiv {
+    background: #fff;
+    padding: 2rem 0 0;
+  }
+  #campuseco .bigarrowcontent {
+    display: none;
+  }
+  .tab {
+    flex: 1 1 100%;
+  }
+  button.expcurriculum {
+    width: 90%;
+    margin-right: 0;
+  }
+  button.partnerwithus {
+    width: 90%;
+  }
+  .programHighlights {
+    background: #fff;
+    padding: 1rem;
+  }
+  .programHighlights .foundationlevel h4 {
+    background: none;
+    padding-left: 0;
+  }
+  .programHighlights .foundationlevel p {
+    text-align: left;
+  }
+  .container-fluid .stopHub-content {
+    margin-top: 0;
+  }
+  .content-align-mobile h6 {
+    text-align: left;
+  }
+  .container-fluid .specialPrograms .d-flex h6 {
+    text-align: left;
+    margin-left: 1rem;
+  }
+  .container-fluid #campuseco .content-pin h6 {
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+  .empowerFuture .content-align-mobile button {
+    width: 90%;
+  }
+  .curriculamFramework {
+    background: #2f0c41;
+    text-align: left;
+    padding: 2rem 1rem 0;
+  }
+  .empowerFuture {
+    text-align: left;
+    padding: 1rem 1rem 0;
+  }
+  .empowerFuture button {
+    width: 100%;
+  }
+  .content-align-mobile {
+    text-align: center;
+  }
+  .content-align-mobile button {
+    width: auto;
+  }
+  .foundationlevel section h2 {
+    margin-bottom: 2rem;
+  }
+  .foundationlevel span {
+    padding: 9px;
+    display: block;
+    text-align: center;
+    margin-right: 0;
+  }
+  .day-label::before {
+    margin-right: 10px;
+    margin-left: 0;
+  }
+  .secondSection {
+    padding-top: 30px;
+    padding-left: 1rem;
+    border-top: 1px solid #555;
+    border-left: 0;
+  }
+  .curriculamFramework h4 {
+    color: #ffffff;
+    text-align: center;
+  }
+  .lightgreybg h6 {
+    color: #ffffff;
+  }
+  .curriculamFramework .pad-right {
+    padding-right: 0.8rem;
+  }
+  .curriculumFrame h5 {
+    color: #ffffff;
+  }
+  .curriculumFrame img {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .curriculum_column_padding img {
+    width: 10%;
+  }
+  .curriculum_column_padding {
+    padding: 1rem 1rem 0;
+  }
+  .valueforeveryone {
+    padding: 3rem 1rem 0rem;
+  }
+  .container-fluid .communityMembers {
+    padding: 1rem 0;
+  }
+  .aiforall {
+    margin-bottom: 15px;
+  }
+  .breathing-space-left {
+    padding: 2rem;
+  }
+  .breathing-space-left p {
+    text-align: left;
+  }
+  .stopHub-content {
+    margin-top: 0;
+  }
+  .readyAI {
+    padding: 0 1rem;
+  }
+  .pad-right {
+    padding-right: 0;
+  }
+  .careerreadysupport {
+    padding: 3rem 1rem 0;
+  }
+  .careerreadysupport h6 {
+    margin-top: 2rem;
+  }
+  .careerreadysupport .container .align-items-center {
+    margin-bottom: 3rem;
+  }
+  .future-content h5 {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .container-fluid .globalDiv {
+    background: #fff;
+    padding: 7rem 3rem 0;
+  }
+  .foundationlevel {
+    display: block;
+  }
+  .foundationlevel span {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    color: #000;
+    font-weight: 600;
+    padding: 9px 30px;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .foundationlevel h4 {
+    margin: 6rem 0 1rem;
+  }
+  .container-fluid .careerreadysupport {
+    background: #2f0c41;
+    text-align: left;
+    padding: 4rem 3rem 0;
+  }
+  .marginGap {
+    margin: 2rem 0 3rem;
+  }
+  .container-fluid .stopHub-content {
+    margin-top: 0;
+  }
+  .foundationlevel section h2 {
+    margin-bottom: 2rem;
+  }
+  .stopHub-content {
+    margin-top: 0;
+  }
+  .secondSection {
+    padding-left: 15px;
+    margin-top: 4rem;
+    border-left: 1px solid #555;
+  }
+  .curriculumFrame img {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+  .curriculum_column_padding {
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  .curriculum_column_padding img {
+    width: 25%;
+    margin-bottom: 1rem;
+  }
+  .activespace .aiforall {
+    margin-top: 1.4rem;
+    height: 510px;
+  }
+  .curriculamFramework .pad-right {
+    padding-right: 0;
+  }
+  .careerreadysupport h4 {
+    margin-bottom: 2rem;
+  }
+  .globalDiv .partnerwithus {
+    width: 40%;
+  }
+}
