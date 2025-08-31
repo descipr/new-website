@@ -94,8 +94,8 @@ const Home = () => {
                         projects to spark innovation and design thinking in
                         students and educators.
                       </p>
-                      <button onClick={openWhatsApp}>
-                        Explore Program
+                      <button >
+                        <a href="https://www.descipr.com/school" style={{textDecoration: "none"}}>Explore Program</a> 
                       </button>
                     </div>
                   </div>
@@ -115,8 +115,8 @@ const Home = () => {
                         mentorship to help students and professors master the
                         latest AI advancements.
                       </p>
-                      <button onClick={openWhatsApp}>
-                        Explore Program
+                      <button >
+                        <a href="https://www.descipr.com/college">Explore Program</a> 
                       </button>
                     </div>
                   </div>
@@ -148,8 +148,8 @@ const Home = () => {
                         strategic guidance to help professionals integrate AI
                         for innovation and efficiency.
                       </p>
-                      <button onClick={openWhatsApp}>
-                        Explore Program
+                      <button >
+                        <a href=" https://www.descipr.com/corporate">Explore Program</a> 
                       </button>
                     </div>
                   </div>

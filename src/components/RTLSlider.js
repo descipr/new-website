@@ -93,7 +93,7 @@ const RTLSlider = () => {
       <div className="container">
         <div className="col-12 col-sm-12 col-lg-12 col-xl-10 offset-xl-1">
           <CustomSwiper slides={topSlides} reverse={false} />
-          <CustomSwiper slides={bottomSlides} reverse={true} />
+          {/* <CustomSwiper slides={bottomSlides} reverse={true} /> */}
         </div>
       </div>
     </div>
